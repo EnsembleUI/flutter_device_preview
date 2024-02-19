@@ -13,6 +13,8 @@ import 'package:device_frame/src/devices/ios/iphone_13/device.dart'
     as i_iphone_13;
 import 'package:device_frame/src/devices/ios/iphone_13_pro_max/device.dart'
     as i_iphone_13_pro_max;
+import 'package:device_frame/src/devices/ios/iphone_14_pro/device.dart'
+    as i_iphone_14_pro;
 import 'package:device_frame/src/devices/ios/iphone_se/device.dart'
     as i_iphone_se;
 import 'package:device_frame/src/devices/ios/ipad_air_4/device.dart'
@@ -35,6 +37,7 @@ class IosDevices {
   DeviceInfo get iPhone13Mini => i_iphone_13_mini.info;
   DeviceInfo get iPhone13 => i_iphone_13.info;
   DeviceInfo get iPhone13ProMax => i_iphone_13_pro_max.info;
+  DeviceInfo get iPhone14Pro => i_iphone_14_pro.info;
   DeviceInfo get iPhoneSE => i_iphone_se.info;
   DeviceInfo get iPadAir4 => i_ipad_air_4.info;
   DeviceInfo get iPad => i_ipad.info;
@@ -51,6 +54,7 @@ class IosDevices {
         iPhone13Mini,
         iPhone13,
         iPhone13ProMax,
+        iPhone14Pro,
         iPhoneSE,
         //Tablets
         iPadAir4,
