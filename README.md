@@ -1,3 +1,5 @@
+(This repo is deprecated. Please use the monorepo [Ensemble](https://github.com/EnsembleUI/ensemble) instead).
+
 <p align="center">
   <img src="https://github.com/aloisdeniel/flutter_device_preview/raw/master/logo.png" alt="Device Preview for Flutter" />
 </p>
